@@ -100,5 +100,5 @@ if __name__ == '__main__':
     # print(average_pairwise_distance_fast(T_prime))
     assert is_valid_network(G, T)
     print("Average  pairwise distance: {}".format(average_pairwise_distance_fast(T)))
-    print(average_pairwise_distance_fast(nx.maximum_spanning_tree(G)))
+    # print(average_pairwise_distance_fast(nx.maximum_spanning_tree(G)))
     write_output_file(T, 'out/test.out')

@@ -16,9 +16,9 @@ def solve(G):
 
     # TODO: your code here!
     v = ax.min_weighted_dominating_set(G)
-    print(v)
+    # print(v)
     T = ax.steiner_tree(G, v)
-    print(T.nodes)
+    # print(T.nodes)
     if (len(T.nodes) == 0):
     	T_prime = T.copy()
     	T_prime.add_node(v.pop())
